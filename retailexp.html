@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="/styles/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Navbar -->
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Alexis Orellana</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Work Experience
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="profexp.html">Professional Work Experience</a>
+                                <a class="dropdown-item" href="retailexp.html">Retail Work Experience</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <!--Experience Info -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <h1>Retail and Food Service Experience</h1>
+                    <h4>Lead Customer Service Associate</h4>
+                    <h4>Wawa</h4>
+                    <h5>Belleville, NJ</h5>
+                    <h5>February 2022 - Present</h5>
+                    <br>
+                    <ul>
+                        <li>Facilitates a fast-paced kitchen to manage rushes that bring over $2,000 dollars an hour</li>
+                        <li>Assists upper management in insuring that company food and safety inspections are passed with a score of 100</li>
+                        <li>Handles cash registers and safes and maintained a 100% safe count accuracy rate using company technology</li>
+                        <li>Communicates with managers to help create a positive work environment to prevent turnover rates from rising more than 5%</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <h4>Customer Service Associate</h4>
+                    <h4>Wawa</h4>
+                    <h5>Belleville, NJ</h5>
+                    <h5>July 2020 - February 2022</h5>
+                    <br>
+                    <ul>
+                        <li>Maintained employee integrity by following five core customer service values set forth by Wawa</li>
+                        <li>Assembled sandwiches and handcrafted beverages while keeping order waiting times at under 5 minutes</li>
+                        <li>Ensured that food and beverage spoilage percentages stayed below 5% by closely following order details</li>
+                    </ul>
+                    <br>
+                    <br>
+                    <h4>Crew Member</h4>
+                    <h4>Wendy's</h4>
+                    <h5>Belleville, NJ</h5>
+                    <h5>February 2020-July 2020</h5>
+                    <br>
+                    <ul>
+                        <li>Supported a team to distribute food items with an order accuracy rate of 100%</li>
+                        <li>Distributed food items using prepackaged ingredients at a time limit of 5 minutes</li>
+                        <li>Operated a POS system with a 100% order accuracy rate while maintaining friendly interactions with customers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+ <footer class="footer page-footer font-small text-center">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy;Alexis Orellana, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="/styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+<!--Navbar -->
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Alexis Orellana</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Work Experience
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="profexp.html">Professional Work Experience</a>
+                                <a class="dropdown-item" href="retailexp.html">Retail Work Experience</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        <!-- Main Header -->
+        <div class="row">
+        <h1 class="col-xl-6">Academic Experience</h1>
+        <br>
+        </div>
+    <div class="col-sm-4  text-center">
+    </div>
+
+        <!--All Academic Info-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <p>Sophomore at the New Jersey Institute of Technology in Newark, NJ</p>
+                    <p>Major: Information Technology</p>
+                    <p>Specialization: Network Security</p>
+                    <p>Graduation Date: May 2025</p>
+                    <br>
+                    <h4>Coursework:</h4>
+                    <p>CS100 - Introduction to Python</p>
+                    <p>CS113 - Introduction to Java</p>
+                    <p>IT114 - Using Java to make programs in Android Studio</p>
+                    <p>IT201 - Introduction to Network Technology</p>
+                    <p>IT202 - Web Applications (HTML and CSS)</p>
+                    <p>IS117 - Introduction to Web Development(HTML and CSS)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--Footer-->
+ <footer class="footer page-footer font-small text-center">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy;Alexis Orellana, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
