@@ -8,7 +8,7 @@
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link href="/styles/main.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,8 +17,8 @@
     <div class="row">
             <nav class="navbar navbar-expand-md
                     justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
+                    navbar-light
+                    col-12" style="background-color: #F0DCB9;">
 
                 <!-- Brand -->
                 <a class="navbar-brand" href="index.html">Alexis Orellana</a>
@@ -33,9 +33,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="education.html">Education</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
@@ -46,6 +43,9 @@
                                 <a class="dropdown-item" href="profexp.html">Professional Work Experience</a>
                                 <a class="dropdown-item" href="retailexp.html">Retail Work Experience</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -63,18 +63,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-7">
-                    <p>Sophomore at the New Jersey Institute of Technology in Newark, NJ</p>
-                    <p>Major: Information Technology</p>
-                    <p>Specialization: Network Security</p>
-                    <p>Graduation Date: May 2025</p>
+                    <h4><strong>University:</strong></h4>
+                    <img src="images/njit.png" alt="NJIT Logo" height=100px>
+                    <p><strong>Sophomore</strong> at the <strong>New Jersey Institute of Technology</strong> in Newark, NJ</p>
+                    <p><strong>Major:</strong> Information Technology</p>
+                    <p><strong>Specialization:</strong> Network Security</p>
+                    <p><strong>Graduation Date:</strong> May 2025</p>
                     <br>
                     <h4>Coursework:</h4>
-                    <p>CS100 - Introduction to Python</p>
-                    <p>CS113 - Introduction to Java</p>
-                    <p>IT114 - Using Java to make programs in Android Studio</p>
-                    <p>IT201 - Introduction to Network Technology</p>
-                    <p>IT202 - Web Applications (HTML and CSS)</p>
-                    <p>IS117 - Introduction to Web Development(HTML and CSS)</p>
+                    <div id="javalogo" class="column">
+                        <img src="images/javalogo.png" alt="Java Logo" height="100px" >
+                    </div>
+                    <div id="pythonlogo" class="column">
+                        <img src="images/pythonlogo.png" alt="Python Logo" height="100px" >
+                    </div>
+
+                    <br>
+                    <p><strong>CS100</strong> - Introduction to Python</p>
+                    <p><strong>CS113</strong> - Introduction to Java</p>
+                    <p><strong>IT114</strong> - Using Java to make programs in Android Studio</p>
+                    <p><strong>IT201</strong> - Introduction to Network Technology</p>
+                    <p><strong>IT202</strong> - Web Applications (HTML and CSS)</p>
+                    <p><strong>IS117</strong> - Introduction to Web Development(HTML and CSS)</p>
+                    <br>
+                    <br>
                     </div>
                 </div>
             </div>

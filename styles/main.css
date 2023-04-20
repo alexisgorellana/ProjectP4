@@ -3,12 +3,120 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #EACABF;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
+    font-family: monospace;
 }
 
 * {box-sizing:border-box}
 
+#javalogo {
+    float: left;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#movadologo {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#wendyslogo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#wawalogo {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#navbar {
+    color: #6C7261
+}
+
+body {
+    background-color: #F0DCB9;
+}
+
+.card {
+    background-color: #EACABF;
+}
+
+.navbar-brand {
+    text-color: black;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #AD8E82;
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-family: monospace;
+}
+
+.navbar-brand {
+    font-family: monospace;
+}
+
+#headline {
+    font-family: monospace;
+}
+
+#websiteintro {
+    font-family: "Courier New";
+}
+
+.card-title {
+    font-family: monospace;
+}
+
+.card-body {
+    font-family: "Courier New";
+}
+
+h2{
+    font-family:monospace;
+}
+
+h3{
+    font-family: monospace;
+}
+
+h4{
+    font-family: monospace;
+}
+
+h5 {
+    font-family: monospace;
+}
+
+.container p{
+    font-family: monospace;
+}
+
+#movadoduties {
+    font-family: monospace;
+    margin-left: 20px;
+}
+
+li {
+    font-family: monospace;
+}
+
+#movadologo {
+    padding: 1em;
+}
